@@ -1,1 +1,330 @@
-Edit this file and write the customer portal privacy policy here.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Customer Portal Privacy Policy. Learn how Customer Portal handles account information, connected business records, notifications, device data and account deletion.">
+  <meta name="theme-color" content="#123b4a">
+  <title>Privacy Policy — Customer Portal</title>
+  <style>
+    :root{
+      color-scheme:light;
+      --navy:#123b4a;--navy-2:#1b5668;--teal:#187d78;--teal-soft:#e8f5f3;
+      --ink:#172b33;--muted:#60747b;--line:#dce7e9;--paper:#fff;--bg:#f3f7f8;
+      --gold:#fff7e5;--gold-line:#ead8a8;--shadow:0 14px 38px rgba(18,59,74,.07)
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:22px}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.72 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:3px}
+    a:hover{color:#105d59}
+    .top{background:linear-gradient(120deg,#102f3d,#185c69);color:#fff;padding:19px max(22px,calc((100% - 1160px)/2));display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:850;letter-spacing:.01em}
+    .mark{width:42px;height:42px;border-radius:14px;background:rgba(255,255,255,.14);display:grid;place-items:center;font-size:21px}
+    .brand small{display:block;font-size:11px;font-weight:650;letter-spacing:.14em;text-transform:uppercase;opacity:.76}
+    .topnav{display:flex;gap:18px;flex-wrap:wrap}
+    .topnav a{color:#eaf6f7;text-decoration:none;font-size:13px;font-weight:700}
+    .topnav a:hover{text-decoration:underline}
+    .hero{background:linear-gradient(180deg,#e7f3f4,#edf7f5);border-bottom:1px solid #d8e8e8;padding:49px 22px 42px}
+    .hero-inner{max-width:1160px;margin:auto}
+    .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);font-weight:850}
+    .hero h1{font-size:clamp(34px,5vw,50px);letter-spacing:-.045em;line-height:1.1;margin:10px 0 14px;color:#123b4a}
+    .hero p{max-width:790px;margin:0;color:#4c6870;font-size:17px}
+    .meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:22px}
+    .pill{display:inline-flex;align-items:center;border:1px solid #c9dfdf;background:rgba(255,255,255,.76);border-radius:999px;padding:6px 11px;color:#315b61;font-size:12px;font-weight:750}
+    .layout{max-width:1160px;margin:34px auto 68px;padding:0 22px;display:grid;grid-template-columns:255px minmax(0,1fr);gap:25px;align-items:start}
+    .toc{position:sticky;top:18px;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow)}
+    .toc strong{display:block;color:var(--navy);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:11px}
+    .toc a{display:block;color:#526a71;text-decoration:none;font-size:13px;padding:6px 0;border-bottom:1px solid #eff3f4}
+    .toc a:last-child{border:0}
+    .toc a:hover{color:var(--teal);padding-left:3px}
+    main{min-width:0}
+    .notice{border:1px solid var(--gold-line);background:var(--gold);padding:16px 18px;border-radius:15px;margin-bottom:18px;color:#5c4a1d;font-size:14px}
+    .notice strong{display:block;margin-bottom:4px;color:#4e3c11}
+    .card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:25px 28px;margin-bottom:16px;box-shadow:var(--shadow);scroll-margin-top:18px}
+    .card h2{font-size:21px;line-height:1.3;letter-spacing:-.02em;color:var(--navy);margin:0 0 12px}
+    .card h3{font-size:16px;color:#285966;margin:20px 0 6px}
+    .card p{margin:9px 0}
+    .card ul,.card ol{padding-left:22px;margin:9px 0}
+    .card li{padding:3px 0}
+    .muted{color:var(--muted)}
+    .small{font-size:13px}
+    .data-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+    .data-table th,.data-table td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--line)}
+    .data-table th{background:#eff6f6;color:#315b61;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+    .data-table tr:last-child td{border-bottom:0}
+    .callout{background:#eef7f6;border-left:4px solid var(--teal);border-radius:9px;padding:13px 16px;margin:15px 0}
+    .delete{border:1px solid #c8dfdc;background:#f0f8f6;border-radius:15px;padding:18px;margin:15px 0}
+    .delete h3{margin:0 0 7px;color:var(--navy)}
+    .contact{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px}
+    .contact a{display:inline-block;background:var(--navy);color:#fff;text-decoration:none;border-radius:10px;padding:9px 13px;font-size:13px;font-weight:750}
+    .footer{max-width:1160px;margin:0 auto;padding:0 22px 36px;color:var(--muted);font-size:13px}
+    .footer-inner{border-top:1px solid var(--line);padding-top:20px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .footer a{margin-right:14px}
+    code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.92em;background:#f1f5f6;padding:2px 5px;border-radius:5px;overflow-wrap:anywhere}
+    @media(max-width:850px){.layout{grid-template-columns:1fr;margin-top:22px}.toc{position:static}.toc-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}.card{padding:21px}.top{align-items:flex-start;flex-direction:column}.hero{padding-top:38px}}
+    @media(max-width:500px){.toc-grid{grid-template-columns:1fr}.data-table{display:block;overflow-x:auto;white-space:normal}.card h2{font-size:19px}.hero p{font-size:15px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.toc a:hover{padding-left:0}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="mark" aria-hidden="true">◫</span><span>Customer Portal<small>Your account, clearly connected</small></span></div>
+    <nav class="topnav" aria-label="Related pages">
+      <a href="https://khadharahmed91-rgb.github.io/Ledger-privacy-policy/">Debt Ledger Privacy Policy</a>
+      <a href="mailto:khadharahmed91@gmail.com?subject=Customer%20Portal%20privacy%20question">Privacy support</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Your information and choices</div>
+      <h1>Privacy Policy</h1>
+      <p>This Policy explains how Customer Portal handles your account information, the business accounts you connect to, the debt and payment information shown to you, notifications, device data and requests to close your account.</p>
+      <div class="meta">
+        <span class="pill">Effective: 26 November 2026</span>
+        <span class="pill">Last reviewed: 26 November 2026</span>
+        <span class="pill">App: Customer Portal for Android</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <aside class="toc" aria-label="Contents">
+      <strong>On this page</strong>
+      <div class="toc-grid">
+        <a href="#operator">1. Who operates the app</a>
+        <a href="#scope">2. What Customer Portal does</a>
+        <a href="#information">3. Information we handle</a>
+        <a href="#sources">4. Where information comes from</a>
+        <a href="#use">5. How we use information</a>
+        <a href="#connections">6. Connected businesses</a>
+        <a href="#notifications">7. Notifications</a>
+        <a href="#storage">8. Local storage and PDFs</a>
+        <a href="#sharing">9. Sharing and service providers</a>
+        <a href="#transfers">10. International processing</a>
+        <a href="#retention">11. Retention and deletion</a>
+        <a href="#rights">12. Your privacy rights</a>
+        <a href="#security">13. Security</a>
+        <a href="#children">14. Children</a>
+        <a href="#changes">15. Changes</a>
+        <a href="#contact">16. Contact</a>
+      </div>
+    </aside>
+
+    <main>
+      <div class="notice">
+        <strong>In short</strong>
+        Customer Portal is a read-only companion to Debt Ledger. It lets you view the debt and payment records that a business has authorised you to see. It does not let you create or edit debts, change balances, or record payments. Your connection is limited to your own linked customer account.
+      </div>
+
+      <section class="card" id="operator">
+        <h2>1. Who operates Customer Portal</h2>
+        <p><b>App:</b> Customer Portal for Android (the “App” or “Service”).</p>
+        <p><b>Developer / service operator:</b> <b>HAWA BADHIR DAHIR</b> (the “Operator”, “we”, “us” or “our”).</p>
+        <p><b>Privacy contact:</b> <a href="mailto:khadharahmed91@gmail.com">khadharahmed91@gmail.com</a>.</p>
+        <p>This Policy applies to Customer Portal and the supporting Firebase and Google Cloud services used to authenticate customers, maintain authorised business connections, display customer-safe ledger records and deliver relevant notifications. It does not replace the privacy policy of Google or the business whose records you view.</p>
+      </section>
+
+      <section class="card" id="scope">
+        <h2>2. What Customer Portal does</h2>
+        <p>Customer Portal is a companion app for businesses that use Debt Ledger. A business can invite a customer to connect to a particular debtor/customer record. After you sign in and redeem a valid invitation, the App can show the records that belong to that connection.</p>
+        <ul>
+          <li>You may connect to more than one business and view each business account separately.</li>
+          <li>You may view your available balance, debt records, item details, payment history, account activity and supported summaries.</li>
+          <li>You may receive an alert when a connected business records a new debt or a payment for your account.</li>
+          <li>You may create a customer-facing invoice, payment receipt or account statement PDF from information already available in the App.</li>
+        </ul>
+        <p><b>Read-only service:</b> Customer Portal does not provide controls for adding, editing or deleting business debts, changing financial balances, or recording or processing payments. If a record is incorrect, contact the business that maintains it. The business controls its Debt Ledger records.</p>
+        <p>The current Customer Portal app does not include Debt Ledger’s AI receipt-scanning feature, subscription billing or in-app advertising.</p>
+      </section>
+
+      <section class="card" id="information">
+        <h2>3. Information we handle</h2>
+        <p>The information processed depends on whether you create an account, connect a business, enable notifications or use the document-export features.</p>
+        <table class="data-table">
+          <thead><tr><th>Category</th><th>Examples</th><th>Why it is handled</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>Account and sign-in information</b></td>
+              <td>Name or display name, email address, Firebase account identifier, sign-in provider and account/role status. Google sign-in may provide profile information such as your name and profile image where available.</td>
+              <td>Create and secure your customer account, sign you in, associate your connections with the correct account and support account recovery or deletion.</td>
+            </tr>
+            <tr>
+              <td><b>Business connection information</b></td>
+              <td>Connected business identifier, business/shop name, linked debtor/customer-record identifier, connection status and connection dates. Business phone or location details may be included where the connected business makes those details available through the authorised connection.</td>
+              <td>Identify the business you are viewing, keep different business accounts separate and enforce the connection permissions.</td>
+            </tr>
+            <tr>
+              <td><b>Customer-safe financial records</b></td>
+              <td>Debtor account summary, debt titles, dates, due dates, item names, quantities, prices, recorded amounts, balances, payment dates, payment methods, references, allocations and supported account activity.</td>
+              <td>Display the records the connected business has authorised you to view and prepare customer-facing documents.</td>
+            </tr>
+            <tr>
+              <td><b>Notification information</b></td>
+              <td>Firebase Cloud Messaging (FCM) registration token, notification type, notification title/body, business and debtor references, received time and read/unread state.</td>
+              <td>Deliver relevant debt/payment alerts to your device and show your notification history.</td>
+            </tr>
+            <tr>
+              <td><b>Device and security information</b></td>
+              <td>App-generated Firebase identifiers, authentication and App Check tokens used for requests, app/device diagnostics and technical request information processed by Google infrastructure.</td>
+              <td>Authenticate requests, protect the service, prevent unauthorised access and diagnose technical failures.</td>
+            </tr>
+            <tr>
+              <td><b>App preferences and local security settings</b></td>
+              <td>Theme and notification preferences, local PIN configuration and whether you enabled biometric unlocking.</td>
+              <td>Remember your app preferences and protect access to the App on your device.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>We do not ask you to provide payment-card numbers, bank passwords or online-banking credentials. Customer Portal does not process a payment or transfer money.</p>
+        <p>The App is designed to show only customer-safe records for your linked debtor account. It is not intended to expose the business’s private notes, owner-only records, unrelated customers’ accounts or the full private business profile.</p>
+      </section>
+
+      <section class="card" id="sources">
+        <h2>4. Where information comes from</h2>
+        <ul>
+          <li><b>Directly from you:</b> information you enter when registering, signing in, redeeming an invitation, changing app preferences or contacting support.</li>
+          <li><b>Google sign-in and Firebase Authentication:</b> account and authentication information returned when you choose Google sign-in or email/password sign-in.</li>
+          <li><b>The connected business:</b> the business’s Debt Ledger account supplies the customer-safe debtor, debt and payment records and the business identity details made available for the connection. The business is responsible for the records it enters and maintains.</li>
+          <li><b>Your device:</b> app preferences, locally stored notification history, security settings and the FCM token used to address notifications to this installation.</li>
+          <li><b>Service providers:</b> Firebase and Google infrastructure generate and process technical information needed to authenticate requests, store authorised records and deliver notifications.</li>
+        </ul>
+        <p>When you scan an invitation QR code, the purpose is to read the invitation code so you can submit it for verification. The QR scan is not a request to upload a photograph of your surroundings or to collect your location.</p>
+      </section>
+
+      <section class="card" id="use">
+        <h2>5. How we use information</h2>
+        <p>We use the information described above to:</p>
+        <ul>
+          <li>create, authenticate and maintain your Customer Portal account;</li>
+          <li>verify invitation codes and establish or maintain the correct business connection;</li>
+          <li>retrieve and display the customer-safe financial records associated with your own linked debtor record;</li>
+          <li>keep connected business accounts separate and prevent access to another customer’s records;</li>
+          <li>refresh the displayed records when the business ledger changes and support previously loaded information when your device is temporarily offline;</li>
+          <li>register your device for relevant push notifications and maintain a local notification history;</li>
+          <li>generate invoices, payment receipts and account statements locally from records already loaded by the App;</li>
+          <li>remember your preferences and provide optional PIN or biometric app unlocking;</li>
+          <li>secure the service, investigate errors, prevent abuse and respond to support requests; and</li>
+          <li>comply with applicable legal obligations and handle valid privacy requests.</li>
+        </ul>
+        <p>Depending on the activity and applicable law, processing may be necessary to provide the service you request, to protect the security and integrity of the service, to comply with a legal obligation, or based on consent where consent is required (for example, optional notification permission). You can change your notification permission in Android settings. Turning notifications off does not delete your account or financial records.</p>
+      </section>
+
+      <section class="card" id="connections">
+        <h2>6. Connected businesses and your financial information</h2>
+        <h3>How a connection is created</h3>
+        <p>A business creates an invitation in Debt Ledger and shares its code or QR code with you. Invitations are designed for one-time use and expire after 30 minutes. The backend stores invitation codes as hashes rather than storing the original code as a reusable plain-text credential. When you redeem an invitation, the service creates matching customer-to-business and business-to-customer connection records.</p>
+        <h3>What the business can make available</h3>
+        <p>The business connection identifies the specific debtor/customer record that belongs to you. The App reads the customer-safe debtor summary and related debt/payment records for that linked record, subject to the active connection, account status and the business’s portal access. The business name is used to identify the account. Business phone or location details may also be shown when those fields are supplied through the authorised connection, including on customer-facing PDFs.</p>
+        <p>The connection does not give you access to the business’s entire ledger, other customers’ records, private owner-only notes or unrelated business profile information. The business remains responsible for the accuracy and lawful collection of the financial information it records.</p>
+        <h3>Disconnecting or revoking access</h3>
+        <p>You can disconnect a business from your Customer Portal account where that option is available. The business can also revoke your connection from Debt Ledger. When a connection is disconnected or revoked, the backend changes the connection status and the service no longer authorises new reads of that business’s linked records through that connection.</p>
+        <p>Information that was already displayed, downloaded, exported, screenshotted or shared may remain in your possession or in copies held by recipients. Revoking a connection cannot remotely erase a copy you previously saved or sent.</p>
+      </section>
+
+      <section class="card" id="notifications">
+        <h2>7. Push notifications and notification history</h2>
+        <p>If notifications are enabled and you grant Android notification permission where required, Customer Portal can register an FCM token for your signed-in account. The token is sent to the backend over an authenticated request and stored in a hashed form associated with your customer profile. The token allows Firebase Cloud Messaging to route an alert to your device.</p>
+        <p>The backend is designed to send customer alerts for two types of event: a new debt recorded for your linked account and a payment recorded for your linked account. Notifications are sent only when the relevant customer connection and account/access checks remain active. The notification message is designed not to include debt or payment amounts or other detailed financial information.</p>
+        <p>The App keeps a local notification history on your device, including the notification type, title, message, business/debtor references, received time and read state. The current local store keeps up to 100 push events. This history is not a separate cloud notification inbox that you can access from another device.</p>
+        <p>You can disable notification permission in Android settings. When you sign out, the App attempts to unregister the current device token from the backend. If you later sign in again or reinstall the App, token registration may occur again while notifications are enabled.</p>
+      </section>
+
+      <section class="card" id="storage">
+        <h2>8. Local storage, offline information and PDF documents</h2>
+        <h3>Information stored on your device</h3>
+        <p>Customer Portal may keep previously loaded business connection information and customer-safe ledger records in app-managed local storage so the App can display information efficiently and support limited offline use. App preferences, notification history and read/unread states are also stored locally. This information is kept within the App’s Android storage area, subject to Android operating-system behaviour, device backups and your device settings.</p>
+        <p>Offline information may be out of date. When your device is offline, the App cannot guarantee that a displayed balance or transaction list reflects the latest change made by the business. Check the connection status and refresh when internet access is available before relying on a record as current.</p>
+        <h3>PIN and biometric unlocking</h3>
+        <p>If you set a local PIN, the App encrypts the PIN using Android Keystore-backed encryption. If you enable biometric unlocking, the App uses Android’s biometric authentication facilities to control access. The App does not receive or store your fingerprint or face biometric template; biometric matching is handled by Android and your device’s security hardware/software.</p>
+        <h3>Invoices, receipts and statements</h3>
+        <p>The App generates customer-facing PDF invoices, payment receipts and account statements on your device from financial information already available to the App. The PDF generation code does not make a separate backend request or upload the generated PDF to our server. The PDF is temporarily written to app-private cache storage and can then be opened, saved or shared using Android’s system chooser.</p>
+        <p>If you choose to save or share a PDF, the copy may be stored outside the App or sent to another person or service, such as an email or messaging provider. That recipient or provider will handle the copy under its own privacy practices. You are responsible for checking the recipient before sharing a document containing financial information.</p>
+        <div class="callout"><b>Important:</b> Signing out, disconnecting a business or deleting your online account does not necessarily remove files, screenshots, exports or other copies that you previously saved or shared. You may need to delete those copies separately from your device or the destination service.</div>
+      </section>
+
+      <section class="card" id="sharing">
+        <h2>9. Sharing and service providers</h2>
+        <p>We do not sell your personal information or your customer financial records. Information is shared only as needed for the functions described in this Policy or as permitted or required by law.</p>
+        <ul>
+          <li><b>Google Firebase and Google Cloud:</b> Firebase Authentication supports sign-in; Cloud Firestore stores and serves authorised account, connection and customer-safe ledger information; Firebase App Check helps verify requests from the genuine app; Cloud Functions operate trusted account, invitation, connection and notification functions; and Firebase Cloud Messaging delivers push notifications. Google processes information under its applicable service terms and privacy documentation.</li>
+          <li><b>The connected business:</b> The business is the source of the debt and payment records shown to you. Your connection status and the fact that a customer connection exists are also reflected in the business’s portal records.</li>
+          <li><b>Services you choose:</b> If you open, save or share a PDF using another app or service, the selected content is provided to that app, service or recipient at your direction. Their own privacy terms apply.</li>
+          <li><b>Legal, safety and rights protection:</b> We may disclose information where reasonably necessary to comply with law or valid legal process, protect people, investigate abuse, enforce our terms or protect the security of the Service.</li>
+        </ul>
+        <p>Customer Portal does not use the Debt Ledger AI scanning backend to analyse customer documents, and it does not collect or process your card or bank payment credentials. Any payment you make to a business takes place outside Customer Portal and is arranged directly with that business or your chosen payment provider.</p>
+        <p>For more information about Google’s handling of information, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy and Security</a>.</p>
+      </section>
+
+      <section class="card" id="transfers">
+        <h2>10. International processing</h2>
+        <p>Google services may process information in data centres or systems located outside the country where you live. The exact location depends on the Google service and the configuration of the Firebase/Google Cloud project. Information may therefore be transferred across national borders when the Service is operated.</p>
+        <p>Where applicable, we will handle international transfers in accordance with the safeguards required by relevant data-protection law. For users in Kenya, this includes considering the Data Protection Act, 2019 and its regulations. You can find information from the <a href="https://www.odpc.go.ke/data-protection-laws-kenya/" target="_blank" rel="noopener noreferrer">Office of the Data Protection Commissioner (ODPC)</a>.</p>
+      </section>
+
+      <section class="card" id="retention">
+        <h2>11. Retention, account closure and deletion</h2>
+        <p>We keep information for as long as it is reasonably needed to provide Customer Portal, maintain your authorised connections, protect the Service, resolve disputes and comply with legal obligations. Different types of information have different retention periods.</p>
+        <ul>
+          <li><b>Account and connection records:</b> Retained while your customer account and relevant connections remain active, or until a valid account-deletion request is completed. A disconnected or revoked connection is no longer authorised for new customer reads.</li>
+          <li><b>Customer profile and device tokens:</b> The backend stores a customer profile and registered device-token records to support the account and notifications. Device tokens are removed as part of customer-account deletion.</li>
+          <li><b>Notification delivery records:</b> Backend delivery records are used to prevent duplicate delivery and manage retries. Customer-related delivery records are included in the account cleanup process. Your on-device notification history is stored locally and may remain until it is cleared by the App, Android app-data controls or uninstalling the App.</li>
+          <li><b>Local cache and exported documents:</b> Cached information and PDF files in the App’s private storage may remain on your device until the App removes them, you clear the App’s storage or you uninstall it. Copies saved, printed, screenshotted or shared elsewhere are outside our ability to delete remotely.</li>
+          <li><b>Limited operational records:</b> The backend may retain account-generation, deletion-status or security/anti-abuse records needed to prevent unauthorised reactivation, protect the Service and maintain reliable deletion processing. These records are not the customer’s active ledger and are not used to restore customer access.</li>
+        </ul>
+        <div class="delete">
+          <h3>Request deletion of your Customer Portal account</h3>
+          <p><b>In the App:</b> open <b>Settings</b> and use the account-deletion option, then complete the identity verification requested by the App. The backend requires recent authentication before accepting an account-deletion request.</p>
+          <p><b>By email:</b> write to <a href="mailto:khadharahmed91@gmail.com?subject=Customer%20Portal%20account%20deletion%20request">khadharahmed91@gmail.com</a> from the email address associated with your account. Use the subject <b>“Customer Portal account deletion request”</b>. Tell us that you want to delete your Customer Portal customer account. Do not send your password, authentication token or FCM token.</p>
+          <p>We may ask for reasonable information to verify that you control the account. When a valid request is accepted, the customer role is disabled first so that the account cannot continue accessing connected business records. A resumable server-side cleanup then removes the customer’s connection records, customer profile, registered device tokens and related notification-delivery records. The cleanup may take time and may be reported as pending until it is complete.</p>
+          <p>If no other active role remains on the same Firebase account, the backend also revokes authentication sessions and deletes the Firebase Authentication user. Some limited operational security/deletion records described above may remain. Deletion of your Customer Portal account does not delete the business’s original ledger records; the business remains responsible for its own records and applicable retention obligations.</p>
+          <p><b>Local copies:</b> Account deletion cannot guarantee removal of cached data, downloaded PDFs, screenshots, printed documents or copies already shared with another person or service. Clear the App’s local storage and delete exported copies separately where you want them removed.</p>
+        </div>
+        <p>Signing out is not the same as deleting your account. Disconnecting one business is also different from deleting your entire Customer Portal account.</p>
+      </section>
+
+      <section class="card" id="rights">
+        <h2>12. Your privacy rights</h2>
+        <p>Depending on your location and applicable law, you may have rights to be informed about the use of your information, request access to it, ask for correction of inaccurate information, object to or restrict certain processing, request deletion, withdraw consent where processing relies on consent, or complain to a data-protection authority.</p>
+        <p>If the information concerns a debt or payment recorded by a particular business, contact that business first to dispute or correct the underlying financial entry. Customer Portal displays the business’s record; it does not independently decide whether a debt or payment is valid and cannot edit the business ledger on your behalf. You can separately contact us about your Customer Portal account, connection data, local notification handling or other information we process for operating the App.</p>
+        <p>To make a privacy request, email <a href="mailto:khadharahmed91@gmail.com">khadharahmed91@gmail.com</a>. We may need to verify your identity and clarify the account or information concerned before acting. In Kenya, you may also contact the <a href="https://www.odpc.go.ke/" target="_blank" rel="noopener noreferrer">Office of the Data Protection Commissioner</a>.</p>
+      </section>
+
+      <section class="card" id="security">
+        <h2>13. Security</h2>
+        <p>Customer Portal uses security controls that include Firebase Authentication, Firebase App Check for backend requests, HTTPS for API communication, account-scoped Firestore rules, server-side checks for customer roles and active business connections, and customer-safe record restrictions. The backend checks the matching customer/business connection and account generations before allowing access to linked financial records. Device PIN protection uses Android Keystore-backed encryption; biometric authentication is handled by Android.</p>
+        <p>These controls are intended to reduce the risk of unauthorised access, but no app, device, network or storage system can be guaranteed completely secure. Protect your email and Google account, use a screen lock on your phone, keep Android and the App updated, and avoid sharing PDFs or screenshots with people who should not see them. Contact us promptly if you suspect unauthorised access to your Customer Portal account.</p>
+      </section>
+
+      <section class="card" id="children">
+        <h2>14. Children</h2>
+        <p>Customer Portal is designed for people who need to view their own customer accounts with a business. It is not designed or marketed for children. We do not knowingly seek to collect personal information directly from children. If you believe a child has created an account or provided personal information directly to us, contact us so we can review the situation and take appropriate action under applicable law.</p>
+      </section>
+
+      <section class="card" id="changes">
+        <h2>15. Changes to this Policy</h2>
+        <p>We may update this Policy when Customer Portal’s features, service providers, data practices or legal requirements change. We will update the effective date at the top of this page. Where required, we will provide additional notice in the App or by another appropriate method. Please review this page from time to time so you understand the current practices.</p>
+      </section>
+
+      <section class="card" id="contact">
+        <h2>16. Contact us</h2>
+        <p>For privacy questions, access or correction requests, account-deletion requests, objections or complaints about Customer Portal’s handling of information, contact:</p>
+        <p><b>HAWA BADHIR DAHIR</b><br>Customer Portal Privacy Support</p>
+        <div class="contact">
+          <a href="mailto:khadharahmed91@gmail.com">Email Customer Portal privacy support</a>
+          <span class="muted">khadharahmed91@gmail.com</span>
+        </div>
+        <p class="small muted">Please do not email passwords, authentication tokens, FCM registration tokens, full identity documents or unnecessary financial information.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© 2026 Customer Portal. All rights reserved.</span>
+      <span><a href="https://khadharahmed91-rgb.github.io/Ledger-privacy-policy/">Debt Ledger Privacy Policy</a><a href="mailto:khadharahmed91@gmail.com">Contact</a></span>
+    </div>
+  </footer>
+</body>
+</html>
